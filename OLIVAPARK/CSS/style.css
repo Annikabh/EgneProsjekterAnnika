@@ -1,0 +1,36 @@
+Nettside.html, body {
+    background-color: black;               
+}
+h1 {
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    background-color: rgb(24, 80, 24);
+    color: white;
+    text-align: left;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    background-color: rgb(24, 80, 24);
+    color: white;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3 {
+    background-color: black;
+    color: white;
+}
+header {
+    background-color: rgba(255, 255, 255, 0);
+}
+ul {
+    background-color: rgb(24, 80, 24);
+}
+img {
+    width: 300px
+}
