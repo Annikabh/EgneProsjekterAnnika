@@ -1,6 +1,9 @@
 Nettside.html, body {
     background-color: black;               
 }
+section { display: flex; gap: 1rem; }
+article { max-width: 400px; border: 1px solid #333; padding: .5rem; }
+section img {max-width: 100%; }
 h1 {
     background-color: black;
     color: white;
