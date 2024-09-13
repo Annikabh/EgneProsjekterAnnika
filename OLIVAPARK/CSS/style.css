@@ -97,4 +97,51 @@ li {
     color: white;
     justify-content: flex-start;
 }
-
+button{
+    justify-content: flex-end;
+}
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #000;
+    position:static;
+    height: 100%;
+    overflow: auto;
+}
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:x-large;
+}
+.sidebar a.active {
+    background-color: black;
+    color: white;
+}
+.sidebar a:hover:not(.active) {
+    background-color: #3c7a45;
+    color: white;
+  }
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: right;}
+    div.content {margin-right: 0;}
+  }
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
