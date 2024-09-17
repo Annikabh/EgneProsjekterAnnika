@@ -16,7 +16,15 @@ h1 {
     background-color: black;
     color: rgb(17, 71, 11);
     justify-content:space-evenly;
-    max-width: 350px;
+    max-width: 385px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.underover {
+    background-color: black;
+    color: rgb(17, 71, 11);
+    justify-content:space-evenly;
+    max-width: 425px;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -36,12 +44,6 @@ h2 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 1450px;
     height: 50px;
-}
-aside {
-    width: 1500px;
-    border: white;
-}
-h2 {
     display:flex;
     align-items: center;
     justify-content: center;
@@ -56,6 +58,10 @@ h3 {
     height: 50px;
     display:grid;
     border: #000 4px;
+}
+aside {
+    width: 1500px;
+    border: white;
 }
 header {
     background-color: rgba(255, 255, 255, 0);
@@ -105,9 +111,8 @@ button{
     padding: 0;
     width: 200px;
     background-color: #000;
-    position:static;
+    position:sticky;
     height: 100%;
-    overflow: auto;
 }
 .sidebar a {
     display: block;
