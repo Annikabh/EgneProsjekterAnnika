@@ -2,7 +2,7 @@ body {
     background-color:#000; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
     padding: 20px;
-    justify-content: flex-start;           
+    justify-content: flex-start;        
 }
 section { 
     display: flex; gap: 1px;
@@ -59,8 +59,8 @@ aside {
 }
 header {
     background-color: #000;
-    display: inline-block;
     width: 1450px;
+    float: right;
 }
 ul {
     color: solid white;
@@ -94,13 +94,13 @@ a:link {
 }
 .sidebar {
     margin: 0;
-    padding: 0rem 0rem 0rem 80rem;
     width: 200px;
-    position:sticky;
     height: 100%;
+    position: fixed;
+    text-align: center;
 }
 .sidebar a {
-    display: block;
+    display:block;
     color: white;
     padding: 16px;
     text-decoration: none;
@@ -122,7 +122,6 @@ a:link {
     .sidebar {
       width: 100%;
       height: auto;
-      position: relative;
     }
     .sidebar a {float: right;}
     div.content {margin-right: 0;}
@@ -130,6 +129,6 @@ a:link {
   @media screen and (max-width: 400px) {
     .sidebar a {
       text-align: center;
-      float: none;
+      float: right;
     }
   }
