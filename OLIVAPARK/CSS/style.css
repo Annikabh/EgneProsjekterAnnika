@@ -1,25 +1,23 @@
 body {
     background-color:#000; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;              
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    padding: 20px;
+    justify-content: flex-start;           
 }
 section { 
     display: flex; gap: 1px;
     width: 1450px;
  }
+
 article { 
-    width: 485px; border: #000;
+    width: 485px; 
+    border: #000;
     font-size: large;
 }
 article img {
     min-width: 100%; height: 250px; 
 }
 h1 {
-    color: rgb(17, 71, 11);
-    justify-content:space-evenly;
-    max-width: 385px;
-    font-size: 20px;
-}
-.underover {
     color: rgb(17, 71, 11);
     justify-content:space-evenly;
     max-width: 425px;
@@ -36,6 +34,10 @@ h2 {
     color: white;
     font-size: 25px;
     width: 1450px;
+    padding-left: 35rem;
+    padding-right: 35rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
     height: 50px;
     display:flex;
     align-items: center;
@@ -57,6 +59,8 @@ aside {
 }
 header {
     background-color: #000;
+    display: inline-block;
+    width: 1450px;
 }
 ul {
     color: solid white;
@@ -74,28 +78,19 @@ img:hover {
 }
 a {
     color:rgb(203, 115, 0);
-    border:#000 1px;
+    padding:#000 20px;
     align-items: center;
     justify-content: space-evenly;
+    text-decoration: none;
 }
 a:active {
    color: rgb(237, 193, 110);
-   text-decoration: none;
 }
 a:hover {
     color:rgb(237, 193, 110);
-    text-decoration: none;
 }
 a:link {
     color: white;
-    text-decoration: none;
-}
-li {
-    color: white;
-    justify-content: flex-start;
-}
-button{
-    justify-content: flex-end;
 }
 .sidebar {
     margin: 0;
