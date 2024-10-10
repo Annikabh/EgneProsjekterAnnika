@@ -12,22 +12,20 @@
 
 
         <header id="topp">
-            <h1><img src="https://oliva-park.no/wp-content/uploads/2022/10/RGB_Primaerlogo-hvit.svg" alt="logo"></h1>
+            <img src="https://oliva-park.no/wp-content/uploads/2022/10/RGB_Primaerlogo-hvit.svg" alt="logo">
             <h1>P Å L I T E L I G H E T & K U N D E S E R V I C E</h1>
-            </header>
+        </header>
 
+
+        <div id="grid-container">
             <section>
-                <div class="sidebar_lukket"></div>
-                    <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
-                </div>
-                <div class="sidebar" style="display:none" id="mySidebar">
-                    <button onclick="w3_close()" class="w3-bar-item w3-large">&times;</button>
-                    <a href="#bunn" class="w3-bar-item w3-button">KONTAK OSS</a>
-                    <a href="#prosjekter" class="w3-bar-item w3-button">TJENESTER</a>
-                    <a href="#omoss" class="w3-bar-item w3-button">OM OSS</a>
-                </div>
-               
+                <ul>
+                    <li><a href="#bunn">Kontakt oss</a>
+                    <li><a href="#omoss">Om oss</a></li>
+                    <li><a href="#prosjekter">Våre tjenester</a></li>
+                </ul>
             </section>
+        </div>
 
         <main>
             <section id="omoss">
@@ -39,16 +37,6 @@
                 </article>
             </section>
 
-            <section>
-                <article>
-                    <script>
-                    /*
-                    <h3>O l i v a P a r k</h3>
-                    <p>Vi utfører oppdrag for private, entreprenører og byggherrer - samt offentlig sektor.</p>
-                    */
-                   </script>
-                </article>
-            </section>
 
             <section id="prosjekter">
                 <h2>V Å R E | T J E N E S T E R </h2>
@@ -102,11 +90,6 @@
 
 
         <footer id="bunn">
-            <script>
-                   /* <h3>Er du interessert?</h3>
-                      <p>Vi er en bedrift som setter pålitelighet meget høyt og det viktigste for oss er at kunden føler seg ivaretatt og at vi ferdigstiller jobben i henhold til avtalen.</p>
-                    */
-            </script>
 
             <ul>
                 <li><a href="post@oliva-park.no">post@oliva-park.no</a></li>
@@ -121,16 +104,6 @@
                 <li><a href="https://www.google.com/maps?q=Tr%C3%B8skenveien+36,+1712+Gr%C3%A5lum&rlz=1C1VDKB_enNO1005NO1005&um=1&ie=UTF-8&sa=X&ved=2ahUKEwj2xtK42OT6AhUzRvEDHT60BLwQ_AUoAXoECAMQAw">Trøskenveien 36, 1712 Grålum</a></li>
             </ul>
         </footer>
-
-        <script>
-            function w3_open() {
-              document.getElementById("mySidebar").style.display = "block";
-            }
-            
-            function w3_close() {
-              document.getElementById("mySidebar").style.display = "none";
-            }
-            </script>
 
     </body>
 </html>
